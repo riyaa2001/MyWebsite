@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login From</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class = "container">
+        <h1 class = "label"> Login </h1>
+        <form class = "login-form" method="POST" action = "home.html" name = "form" onsubmit= "return validated()">
+            <div class = "font">Email or Phone</div>
+            <input autocomplete = "off" type = "text" name = "email">
+            <div id = "invalid-email">Please fill your Email correctly!</div>
+            <div class = "font font2">Password</div>
+            <input type = "password" name = "password">
+            <div id = "invalid-password">Please fill your Password correctly!</div>
+            <button type = "submit">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
